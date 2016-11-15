@@ -66,7 +66,7 @@ extension ArtistListViewController: UITableViewDataSource {
     cell.nameLabel.textAlignment = .center
     
     cell.nameLabel.font = UIFont.preferredFont(forTextStyle: .headline)
-    cell.bioLabel.font = UIFont.preferredFont(forTextStyle: .body)
+//    cell.bioLabel.font = UIFont.preferredFont(forTextStyle: .body)
     cell.selectionStyle = .none
     
     return cell
